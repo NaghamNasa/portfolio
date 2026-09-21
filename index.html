@@ -1,229 +1,446 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Nagham Emad Ahmad Al-Nas'ah — Software Engineering graduate and Junior QA enthusiast." />
   <title>Nagham Emad | QA Portfolio</title>
+
   <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome for icons -->
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
 
 <header>
   <div class="container">
     <nav>
       <a class="logo" href="#home">Nagham Al-Nas'ah<span>.</span></a>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+
+```
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+```
+
   </div>
 </header>
 
 <main id="home">
+
+  <!-- HERO -->
+
   <section class="hero">
     <div class="container">
-      <div class="eyebrow"><span class="dot"></span> Software Engineering Graduate · QA</div>
-      <h1>Hi, I'm <span>Nagham</span>.<br>I care about quality.</h1>
-      <p>
-        A Software Engineering graduate with a strong interest in Quality Assurance
-        and software testing. I enjoy finding defects, thinking through user scenarios,
-        and learning how to build more reliable software.
-      </p>
-      <div class="buttons">
-        <a class="btn btn-primary" href="#projects">View My Projects</a>
-        <a class="btn btn-secondary" href="mailto:naghamemad04@gmail.com">Contact Me</a>
-      </div>
-    </div>
+
+```
+  <div class="eyebrow">
+    <span class="dot"></span>
+    Software Engineering Graduate · QA
+  </div>
+
+  <h1>
+    Hi, I'm <span>Nagham</span>.<br>
+    I care about quality.
+  </h1>
+
+  <p>
+    A Software Engineering graduate with a strong interest in Quality Assurance
+    and software testing. I enjoy finding defects, thinking through user scenarios,
+    and learning how to build more reliable software.
+  </p>
+
+  <div class="buttons">
+    <a class="btn btn-primary" href="#projects">
+      View My Projects
+    </a>
+
+    <a class="btn btn-secondary" href="mailto:naghamemad04@gmail.com">
+      Contact Me
+    </a>
+  </div>
+
+</div>
+```
+
   </section>
+
+  <!-- ABOUT -->
 
   <section id="about">
     <div class="container">
-      <div class="section-head">
-        <div class="section-label">About me</div>
-        <h2>Detail-oriented. Curious. Always learning.</h2>
+
+```
+  <div class="section-head">
+    <div class="section-label">About me</div>
+    <h2>Detail-oriented. Curious. Always learning.</h2>
+  </div>
+
+  <div class="about-grid">
+
+    <div class="card">
+      <p class="about-text">
+        I am a Software Engineering graduate from Al-Balqa Applied University,
+        interested in starting my career in Quality Assurance and software testing.
+        I have practical training in Manual and Automation Testing and have built
+        hands-on testing projects using Selenium, TestNG, Java, SQL, Maven, and JDBC.
+        My goal is to keep developing my testing and technical skills while gaining
+        real-world experience as a Junior QA professional.
+        I am also open to learning new technologies and exploring different fields,
+        as I enjoy taking on new challenges and continuously developing my skills.
+      </p>
+    </div>
+
+    <div class="facts">
+      <div class="fact">
+        <strong>Location</strong>
+        <span>Amman, Jordan</span>
       </div>
-      <div class="about-grid">
-        <div class="card">
-          <p class="about-text">
-            I am a Software Engineering graduate from Al-Balqa Applied University,
-            interested in starting my career in Quality Assurance and software testing.
-            I have practical training in Manual and Automation Testing and have built 
-            hands-on testing projects using Selenium, TestNG, Java, SQL, Maven, and JDBC.
-            My goal is to keep developing my testing and technical skills while gaining 
-            real-world experience as a Junior QA professional.
-            I am also open to learning new technologies and exploring different fields,
-            as I enjoy taking on new challenges and continuously developing my skills.
-          </p>
-        </div>
-        <div class="facts">
-          <div class="fact"><strong>Location</strong><span>Amman, Jordan</span></div>
-          <div class="fact"><strong>Degree</strong><span>Bachelor of SE</span></div>
-          <div class="fact"><strong>GPA</strong><span>3.33 / 4.00</span></div>
-          <div class="fact"><strong>Focus</strong><span>QA & Testing</span></div>
-        </div>
+
+      <div class="fact">
+        <strong>Degree</strong>
+        <span>Bachelor of SE</span>
+      </div>
+
+      <div class="fact">
+        <strong>GPA</strong>
+        <span>3.33 / 4.00</span>
+      </div>
+
+      <div class="fact">
+        <strong>Focus</strong>
+        <span>QA & Testing</span>
       </div>
     </div>
+
+  </div>
+</div>
+```
+
   </section>
+
+  <!-- PROJECTS -->
 
   <section id="projects">
     <div class="container">
-      <div class="section-head">
-        <div class="section-label">Selected work</div>
-        <h2>Testing projects</h2>
-      </div>
-      <div class="projects">
-        <article class="card project">
-          <div class="project-number">01 · AUTOMATION</div>
-          <h3>E-commerce Website Test Automation</h3>
-          <p>
-            Automated end-to-end e-commerce scenarios including user registration,
-            login, product selection, adding products to the cart, and checkout.
-          </p>
-          <div class="tags">
-            <span class="tag">Java</span><span class="tag">Selenium</span>
-            <span class="tag">TestNG</span><span class="tag">Maven</span>
-          </div>
-          <a class="project-link" href="https://github.com/NaghamNasa/Ecommerce_TestAutomation" target="_blank" rel="noopener">
-            View on GitHub ↗
-          </a>
-        </article>
 
-        <article class="card project">
-          <div class="project-number">02 · DATABASE TESTING</div>
-          <h3>Database-Driven E-Commerce Testing</h3>
-          <p>
-            Integrated SQL database test data with Selenium automation to dynamically
-            test user registration and login scenarios.
-          </p>
-          <div class="tags">
-            <span class="tag">Java</span><span class="tag">Selenium</span>
-            <span class="tag">MySQL</span><span class="tag">JDBC</span>
-            <span class="tag">TestNG</span>
-          </div>
-          <span class="project-link">SQL + UI automation</span>
-        </article>
+```
+  <div class="section-head">
+    <div class="section-label">Selected work</div>
+    <h2>Testing projects</h2>
+  </div>
+
+  <div class="projects">
+
+    <!-- PROJECT 1 -->
+    <article class="card project">
+
+      <div class="project-number">
+        01 · AUTOMATION
       </div>
 
-      <div class="card" style="margin-top:20px;">
-        <div class="project-number">03 · FIELD TRAINING</div>
-        <h3>Mobile Game Development</h3>
-        <p>
-          Practical field-training project completed at Jordan Gaming Lab using
-          Unity and C#. Developed a mobile game as part of the hands-on training experience.
-        </p>
-        <div class="tags">
-          <span class="tag">Unity</span><span class="tag">C#</span>
-          <span class="tag">Mobile Development</span><span class="tag">Game Development</span>
-        </div>
+      <h3>
+        E-commerce Website Test Automation
+      </h3>
+
+      <p>
+        Automated end-to-end e-commerce scenarios including user registration,
+        login, product selection, adding products to the cart, and checkout.
+      </p>
+
+      <div class="tags">
+        <span class="tag">Java</span>
+        <span class="tag">Selenium</span>
+        <span class="tag">TestNG</span>
+        <span class="tag">Maven</span>
       </div>
-    </div>
+
+      <a class="project-link"
+         href="https://github.com/NaghamNasa/Ecommerce_TestAutomation"
+         target="_blank"
+         rel="noopener">
+        View on GitHub ↗
+      </a>
+
+    </article>
+
+
+    <!-- PROJECT 2 -->
+    <article class="card project">
+
+      <div class="project-number">
+        02 · UNIVERSITY FIELD TRAINING
+      </div>
+
+      <h3>
+        Mobile Game Development
+      </h3>
+
+      <p>
+        Completed my university-required field training in game development
+        at Jordan Gaming Lab. During the training, I worked with Unity and C#
+        and contributed to the development of a mobile game.
+      </p>
+
+      <div class="tags">
+        <span class="tag">University Field Training</span>
+        <span class="tag">Unity</span>
+        <span class="tag">C#</span>
+        <span class="tag">Mobile Development</span>
+      </div>
+
+    </article>
+
+  </div>
+</div>
+```
+
   </section>
+
+  <!-- SKILLS -->
 
   <section id="skills">
     <div class="container">
-      <div class="section-head">
-        <div class="section-label">Toolkit</div>
-        <h2>Skills & technologies</h2>
+
+```
+  <div class="section-head">
+    <div class="section-label">Toolkit</div>
+    <h2>Skills & technologies</h2>
+  </div>
+
+  <div class="skills-grid">
+
+    <div class="card skill-card">
+
+      <h3>Testing</h3>
+
+      <div class="skill-list">
+        <span class="skill">Manual Testing</span>
+        <span class="skill">Functional Testing</span>
+        <span class="skill">Regression Testing</span>
+        <span class="skill">Test Cases</span>
+        <span class="skill">Test Scenarios</span>
+        <span class="skill">Bug Reporting</span>
+        <span class="skill">STLC</span>
+        <span class="skill">SDLC</span>
       </div>
-      <div class="skills-grid">
-        <div class="card skill-card">
-          <h3>Testing</h3>
-          <div class="skill-list">
-            <span class="skill">Manual Testing</span><span class="skill">Functional Testing</span>
-            <span class="skill">Regression Testing</span><span class="skill">Test Cases</span>
-            <span class="skill">Test Scenarios</span><span class="skill">Bug Reporting</span>
-            <span class="skill">STLC</span><span class="skill">SDLC</span>
-          </div>
-        </div>
-        <div class="card skill-card">
-          <h3>Automation & Data</h3>
-          <div class="skill-list">
-            <span class="skill">Selenium WebDriver</span><span class="skill">TestNG</span>
-            <span class="skill">Java</span>
-            <span class="skill">SQL</span>
-          </div>
-        </div>
-        <div class="card skill-card">
-          <h3>Development tools</h3>
-          <div class="skill-list">
-            <span class="skill">HTML</span><span class="skill">Eclipse</span>
-            <span class="skill">Visual Studio Code</span>
-          </div>
-        </div>
-      </div>
+
     </div>
+
+
+    <div class="card skill-card">
+
+      <h3>Automation & Data</h3>
+
+      <div class="skill-list">
+        <span class="skill">Selenium WebDriver</span>
+        <span class="skill">TestNG</span>
+        <span class="skill">Java</span>
+        <span class="skill">SQL</span>
+      </div>
+
+    </div>
+
+
+    <div class="card skill-card">
+
+      <h3>Development tools</h3>
+
+      <div class="skill-list">
+        <span class="skill">HTML</span>
+        <span class="skill">Eclipse</span>
+        <span class="skill">Visual Studio Code</span>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+```
+
   </section>
+
+  <!-- EDUCATION & TRAINING -->
 
   <section id="education">
     <div class="container">
-      <div class="section-head">
-        <div class="section-label">Background</div>
-        <h2>Education & training</h2>
-      </div>
-      <div class="card">
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="timeline-date">2021 — 2025</div>
-            <h3>Bachelor of Software Engineering</h3>
-            <p>Al-Balqa Applied University · Salt, Jordan · GPA 3.33/4.00</p>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-date">APR 2026 — JUN 2026 · 80 HOURS</div>
-            <h3>Quality Assurance — Manual & Automation Testing</h3>
-            <p>Princess Sumaya University for Technology — Training Center</p>
-            <p style="margin-top:8px;">
-              Manual testing fundamentals, test case design, test scenarios, bug reporting,
-              Selenium, TestNG, Java, SQL, and practical STLC training.
-            </p>
-            <a class="project-link" href="https://drive.google.com/file/d/1P26dOvGQgVuarlXt7VliMoPHaFKw1R2O/view?usp=sharing" target="_blank" rel="noopener">
-              View Certificate ↗
-            </a>
-          </div>
 
-          <div class="timeline-item">
-            <div class="timeline-date">FIELD TRAINING · JORDAN GAMING LAB</div>
-            <h3>Game Development Training</h3>
-            <p>Jordan Gaming Lab · Amman, Jordan</p>
-            <p style="margin-top:8px;">
-              Completed practical field training in game development, working with
-              Unity and C# and contributing to the development of a mobile game.
-              Gained hands-on experience with game development concepts, implementation,
-              and interactive gameplay.
-            </p>
-            <div class="tags">
-              <span class="tag">Unity</span><span class="tag">C#</span>
-              <span class="tag">Mobile Game Development</span>
-            </div>
-          </div>
+```
+  <div class="section-head">
+    <div class="section-label">Background</div>
+    <h2>Education & training</h2>
+  </div>
+
+  <div class="card">
+
+    <div class="timeline">
+
+      <!-- EDUCATION -->
+      <div class="timeline-item">
+
+        <div class="timeline-date">
+          2021 — 2025
         </div>
+
+        <h3>
+          Bachelor of Software Engineering
+        </h3>
+
+        <p>
+          Al-Balqa Applied University · Salt, Jordan · GPA 3.33/4.00
+        </p>
+
       </div>
+
+
+      <!-- QA TRAINING -->
+      <div class="timeline-item">
+
+        <div class="timeline-date">
+          APR 2026 — JUN 2026 · 80 HOURS
+        </div>
+
+        <h3>
+          Quality Assurance — Manual & Automation Testing
+        </h3>
+
+        <p>
+          Princess Sumaya University for Technology — Training Center
+        </p>
+
+        <p style="margin-top:8px;">
+          Manual testing fundamentals, test case design, test scenarios,
+          bug reporting, Selenium, TestNG, Java, SQL, and practical STLC training.
+        </p>
+
+        <a class="project-link"
+           href="https://drive.google.com/file/d/1P26dOvGQgVuarlXt7VliMoPHaFKw1R2O/view?usp=sharing"
+           target="_blank"
+           rel="noopener">
+          View Certificate ↗
+        </a>
+
+      </div>
+
+
+      <!-- UNIVERSITY FIELD TRAINING -->
+      <div class="timeline-item">
+
+        <div class="timeline-date">
+          UNIVERSITY FIELD TRAINING · JORDAN GAMING LAB
+        </div>
+
+        <h3>
+          Game Development — Field Training
+        </h3>
+
+        <p>
+          Jordan Gaming Lab · Amman, Jordan
+        </p>
+
+        <p style="margin-top:8px;">
+          Completed my university-required field training in game development
+          at Jordan Gaming Lab. During the training, I worked with Unity and C#
+          and contributed to the development of a mobile game.
+        </p>
+
+        <div class="tags">
+          <span class="tag">University Field Training</span>
+          <span class="tag">Unity</span>
+          <span class="tag">C#</span>
+          <span class="tag">Mobile Game Development</span>
+        </div>
+
+      </div>
+
     </div>
+  </div>
+</div>
+```
+
   </section>
+
+  <!-- CONTACT -->
 
   <section id="contact">
     <div class="container">
-      <div class="contact">
-        <div class="section-label">Let's connect</div>
-        <h2>Looking for a Junior QA opportunity.</h2>
-        <p>
-          I am open to opportunities where I can contribute, learn from an experienced team,
-          and grow as a Quality Assurance professional. I am also excited to learn new 
-          technologies, explore different areas of the software industry, 
-          and take on new challenges.
-        </p>
-        <div class="contact-links">
-          <a class="contact-link" href="mailto:naghamemad04@gmail.com">naghamemad04@gmail.com</a>
-          <a class="contact-link" href="tel:+962796818600">+962 79 681 8600</a>
-          <a class="contact-link" href="https://github.com/NaghamNasa" target="_blank" rel="noopener">GitHub ↗</a>
-        </div>
-      </div>
+
+```
+  <div class="contact">
+
+    <div class="section-label">
+      Let's connect
     </div>
+
+    <h2>
+      Looking for a Junior QA opportunity.
+    </h2>
+
+    <p>
+      I am open to opportunities where I can contribute, learn from an experienced team,
+      and grow as a Quality Assurance professional. I am also excited to learn new
+      technologies, explore different areas of the software industry,
+      and take on new challenges.
+    </p>
+
+    <div class="contact-links">
+
+      <!-- EMAIL -->
+      <a class="contact-link"
+         href="mailto:naghamemad04@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        Email
+      </a>
+
+
+      <!-- PHONE -->
+      <a class="contact-link"
+         href="tel:+962796818600">
+        <i class="fa-solid fa-phone"></i>
+        +962 79 681 8600
+      </a>
+
+
+      <!-- GITHUB -->
+      <a class="contact-link"
+         href="https://github.com/NaghamNasa"
+         target="_blank"
+         rel="noopener">
+        <i class="fa-brands fa-github"></i>
+        GitHub
+      </a>
+
+
+      <!-- WHATSAPP -->
+      <a class="contact-link whatsapp-link"
+         href="https://wa.me/962798616610"
+         target="_blank"
+         rel="noopener"
+         aria-label="Contact me on WhatsApp">
+
+        <i class="fa-brands fa-whatsapp"></i>
+        WhatsApp
+
+      </a>
+
+    </div>
+
+  </div>
+</div>
+```
+
   </section>
+
 </main>
 
 <footer>
